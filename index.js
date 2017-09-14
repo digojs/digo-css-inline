@@ -6,7 +6,7 @@ module.exports = function CSSInline(file, options) {
         if (digo.isAbsoluteUrl(url)) {
             return all;
         }
-        var p = file.resolve(url);
+        var p = file.resolve(url.replace(/[?#].*$/, ""));
         var mimeType = options[digo.getExt(p)];
         if (mimeType) {
             var data = digo.readFileIf(p);

@@ -1,10 +1,10 @@
 {
     "name": "digo-css-inline",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repository": "https://github.com/digojs/digo-css-inline",
     "description": "digo 插件：内联 CSS 内的资源",
     "keywords": [
-        "digo plugin",
+        "digo-plugin",
         "css"
     ],
     "license": "MIT",
